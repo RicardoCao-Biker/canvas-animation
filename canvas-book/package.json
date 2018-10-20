@@ -1,0 +1,31 @@
+{
+  "name": "canvas-draw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RicardoCao-Biker/canvas-animation.git"
+  },
+  "keywords": [
+    "rico"
+  ],
+  "author": "rico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicardoCao-Biker/canvas-animation/issues"
+  },
+  "homepage": "https://github.com/RicardoCao-Biker/canvas-animation#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
